@@ -17,6 +17,7 @@ class BattleChipController {
         }
 
         if (battleChip.hasErrors()) {
+            console.log("hello");
             respond battleChip.errors, view: 'create'
             return
         }
